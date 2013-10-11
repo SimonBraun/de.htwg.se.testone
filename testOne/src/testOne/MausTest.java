@@ -18,10 +18,15 @@ public class MausTest {
 
 	@Test
 	public void test() {
+		
 		maus.setX(0);
 		assertEquals(0, maus.getX());
+		
 		maus.setY(5);
 		assertEquals(5, maus.getY());
+	
+
+		assertEquals("x = 0 y = 5", maus.toString());
 	}
 
 }
