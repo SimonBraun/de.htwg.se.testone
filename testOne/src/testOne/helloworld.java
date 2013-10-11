@@ -1,4 +1,6 @@
 package testOne;
+import junit.framework.TestCase;
+
 
 public class helloworld {
 	
